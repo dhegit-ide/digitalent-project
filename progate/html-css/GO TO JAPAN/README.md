@@ -2,7 +2,7 @@
 # Group Project by A27
 # Our Team:
    - Bagas
-   - Edo Rega
    - Dhea Gita
    - Dwi Febriyanti
+   - Edo Rega
    - Fathurrahman
