@@ -1,0 +1,176 @@
+/* Untuk Smartphone */
+@media (max-width: 670px) {
+
+    /* NAVBAR */
+    label #menu-bar {
+        display: block;
+    }
+
+    .menu {
+        position: fixed;
+        top: 65px;
+        right: -100%;
+
+        background-color: rgb(9, 7, 7, .9);
+        width: 60%;
+        height: 100vh;
+
+        padding-top: 50px;
+        margin-right: 0;
+        transition: .5s;
+    }
+
+    .menu li {
+        display: block;
+    }
+
+    #check:checked~.menu {
+        right: 0;
+    }
+
+    #check:checked~label #menu-bar {
+        display: none;
+    }
+
+    #check:checked~label #menu-close {
+        display: block;
+    }
+
+    /* ANIM */
+    .anim {
+        position: relative;
+        animation-name: example;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes example {
+        0% {
+            left: -480px;
+            top: 0px;
+        }
+
+        100% {
+            left: 520px;
+            top: 0px;
+        }
+    }
+
+    /* --ANIM */
+
+
+    /* BODY */
+    .content h1 {
+        text-align: center;
+        font-size: 27px;
+    }
+
+    .image-icon {
+        width: 100%;
+    }
+
+    .container-image {
+        padding: 0 90px;
+    }
+
+    .image-icon img {
+        padding-bottom: 5px;
+    }
+
+    .image h2 {
+        font-size: 30px;
+    }
+
+    /* --BODY */
+
+
+    /* FOOTER */
+    .footer {
+        background-color: black;
+        padding: 40px;
+    }
+
+    .footer.satu {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .isi-footer {
+        width: 30%;
+        color: white;
+    }
+
+    .isi-footer h1 {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .isi-footer a {
+        color: rgb(175, 173, 173);
+        font-size: 12px;
+    }
+
+    .isi-footer li {
+        line-height: 24px;
+    }
+
+    .footer.dua {
+        padding: 15px;
+    }
+
+    .footer.tiga {
+        background-color: #505050;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .footer.tiga li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .footer.tiga a {
+        color: white;
+        font-size: 11px;
+    }
+
+    /* --FOOTER */
+}
+
+/* Untuk Tablet */
+@media (max-width: 1000px) {
+
+    /* MAIN */
+    .container {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .main-part {
+        padding-top: 200px;
+    }
+
+    /* --MAIN */
+
+
+    /* BODY */
+    .image-icon {
+        width: 50%;
+    }
+
+    .content h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .image-icon img {
+        padding-bottom: 5px;
+    }
+
+    .image h2 {
+        font-size: 32px;
+    }
+}
